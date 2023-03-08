@@ -61,7 +61,7 @@ const Home = () => {
                 whileHover={{ scale: 1.1 }}
                 src={process.env.PUBLIC_URL + profileImg}
                 alt="Profile image"
-                className="profileImg  xs={12} md={6} xl={5"
+                className=""
               />
             </motion.div>
           </div>
