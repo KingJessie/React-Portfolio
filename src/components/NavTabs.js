@@ -16,7 +16,7 @@ function NavTabs() {
         <ul className="flex space-x-4">
           <li className="nav-item ">
             <NavLink
-              to="/react-portfolio/"
+              to="/"
               end
               className={({ isActive }) =>
                 isActive ? "nav-link active" : "nav-link"
@@ -26,7 +26,7 @@ function NavTabs() {
           </li>
           <li className="nav-item">
             <NavLink
-              to="/react-portfolio/about"
+              to="/about"
               className={({ isActive }) =>
                 isActive ? "nav-link active" : "nav-link"
               }>
@@ -35,7 +35,7 @@ function NavTabs() {
           </li>
           <li className="nav-item">
             <NavLink
-              to="/react-portfolio/project"
+              to="/project"
               className={({ isActive }) =>
                 isActive ? "nav-link active" : "nav-link"
               }>
@@ -44,7 +44,7 @@ function NavTabs() {
           </li>
           <li className="nav-item">
             <NavLink
-              to="/react-portfolio/contact"
+              to="/contact"
               end
               className={({ isActive }) =>
                 isActive ? "nav-link active" : "nav-link"

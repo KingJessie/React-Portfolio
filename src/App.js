@@ -9,18 +9,21 @@ import "./index.css"
 
 function App() {
   return (
-    <Router>
+
+   
+    <Router basename="/React-Portfolio3">
       <div>
         <NavTabs />
         {/* Wrap Route elements in a Routes component */}
-        <Routes basename="/react-portfolio">
+        <Routes>
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
-          <Route path="/react-portfolio/" element={<Home  />} />
-          <Route path="/react-portfolio/about" element={<About />} />
-          <Route path="/react-portfolio/project" element={<Project />} />
-          {/* Define a route that will have descendant routes */}
-          <Route path="/react-portfolio/contact" element={<Contact />} />
+          <Route path="/" element={<Home  />} />
+  
+          <Route path="/about" element={<About />} />
+          <Route path="/project" element={<Project />} />
+          
+          <Route path="/contact" element={<Contact />} />  
         </Routes>
       </div>
     </Router>
