@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-let Logo = "/images/logo.png";
+let Logo = "/images/logo1.png";
 
 function NavTabs() {
   return (

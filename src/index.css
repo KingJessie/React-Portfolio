@@ -10,11 +10,19 @@
   padding: 0;
 }
 
+.home{
+  background: linear-gradient(#cdb4db 40%, transparent 40%) no-repeat;
+}
+
 .h1-home {
   font-family: "Elsie", sans-serif;
   font-weight: 900;
   color: #966262;
   padding-top: 15%;
+}
+
+.h1-span{
+  color: black;
 }
 
 p {
@@ -33,7 +41,7 @@ p {
 .homecontent {
   font-family: "Philosopher", sans-serif;
   color: #ff82a9;
-  padding-top: 5%;
+  padding-top: 3%;
 }
 
 .home-p {
