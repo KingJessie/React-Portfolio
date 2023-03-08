@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KingJessie/React-Portfolio3.git/static/css/main.6204f316.css",
+    "main.js": "/KingJessie/React-Portfolio3.git/static/js/main.ce95b6bc.js",
+    "index.html": "/KingJessie/React-Portfolio3.git/index.html",
+    "main.6204f316.css.map": "/KingJessie/React-Portfolio3.git/static/css/main.6204f316.css.map",
+    "main.ce95b6bc.js.map": "/KingJessie/React-Portfolio3.git/static/js/main.ce95b6bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6204f316.css",
+    "static/js/main.ce95b6bc.js"
+  ]
+}
