@@ -51,12 +51,12 @@ const Home = () => {
               Node.
             </p>
           </motion.div>
-          <div className="flex justify-end max-h-96 lg:max-h-max">
+          <div className="flex justify-end max-h-96 lg:max-h-max pt-20">
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0 }}
-              className="relative lg:-right-40 overflow-hidden">
+              className="flex lg:-right-40 overflow-hidden">
               <motion.img
                 whileHover={{ scale: 1.1 }}
                 src={process.env.PUBLIC_URL + profileImg}

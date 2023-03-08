@@ -11,7 +11,7 @@ function About() {
           <Col xs={12} md={6} xl={5}>
             <div className="image-container">
               <img
-                src={Image}
+                src={process.env.PUBLIC_URL + Image}
                 alt="my profile-pic"
                 width={"300px"}
                 height={"300px"}

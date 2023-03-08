@@ -12,6 +12,7 @@
 
 .h1-home {
   font-family: "Elsie", sans-serif;
+  font-weight: 900;
   color: #966262;
   padding-top: 15%;
 }
@@ -32,7 +33,7 @@ p {
 .homecontent {
   font-family: "Philosopher", sans-serif;
   color: #ff82a9;
-  padding-top: 15%;
+  padding-top: 5%;
 }
 
 .home-p {
@@ -43,4 +44,5 @@ p {
 .profileImg {
   border-radius: 50%;
   justify-content: center;
+  display: flex;
 }
