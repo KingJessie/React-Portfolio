@@ -42,4 +42,5 @@ p {
 
 .profileImg {
   border-radius: 50%;
+  justify-content: center;
 }
