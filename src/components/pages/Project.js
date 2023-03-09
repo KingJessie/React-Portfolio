@@ -7,7 +7,7 @@ function Project() {
     initial={{ opacity: 0, y: '100%' }}
     animate={{ opacity: 1, y: 0 }}
     exit={{ opacity: 0, y: '100%' }}
-    className='about section pt-24'
+    className='project section pt-24'
   > <h1 className='h1-project'>Project</h1>
    <div class="container grid-cols-2 lg:grid-cols-3 gap-4">
 
@@ -18,6 +18,7 @@ function Project() {
           initial={{ opacity: 0, y: '-80%' }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: '-80%' }}
+        
           >
           </motion.div>
           <article class="card card--1 flex-1 max-w-sm mx-auto lg:mx-0 overflow-hidden">

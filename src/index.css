@@ -10,13 +10,18 @@
   padding: 0;
 }
 
+body{
+  font-family: 'Poppins', sans-serif;
+}
 
 .home{
   background: linear-gradient(#cdb4db 40%, transparent 40%) no-repeat;
 }
-.about{
-  background-color: rgb(255, 255, 255);
+.project{
+  background: linear-gradient(#d0f4de 40%, transparent 40%) no-repeat;
 }
+
+
 
 .h1-about{
   font-family: "Elsie", sans-serif;
@@ -368,6 +373,7 @@ color: #868686;
 button{
   width: 90px;
   color: #fff;
+  font-family: "Elsie", sans-serif;
   cursor: pointer;
   text-align:center;
   border: none;
@@ -376,6 +382,6 @@ button{
 }
 
 button:hover {
-  background-image: linear-gradient(to right, #fe2483, #ec8c69, #f7186a , #FBB03B);
-box-shadow: 0 4px 15px 0 rgba(201, 2, 55, 0.75);
+  background-color: #7ad1fd;
+box-shadow: 0 4px 15px 0 rgba(26, 26, 26, 0.75);
 }
