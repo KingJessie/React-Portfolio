@@ -76,13 +76,13 @@ const Home = () => {
       <footer className="py-8 bg-indigo-300">
   <div className="container mx-auto">
     <div className="flex items-center justify-center mb-4">
-      <a href="mailto:kingjessiex@gmail.com" className="text-white mr-4">
+      <a href="mailto:kingjessiex@gmail.com" className="text-white mr-4 footer-icon">
         <ImEnvelop size={32}/>
       </a>
-      <a href="https://github.com/KingJessie" className="text-white mr-4">
+      <a href="https://github.com/KingJessie" className="text-white mr-4 footer-icon">
       <ImGithub size={32}/>
       </a>
-      <a href="https://uk.linkedin.com/" className="text-white">
+      <a href="https://uk.linkedin.com/" className="text-white footer-icon">
       <ImLinkedin size={32}/>
       </a>
     </div>
