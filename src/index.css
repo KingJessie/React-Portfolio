@@ -385,3 +385,7 @@ button:hover {
   background-color: #7ad1fd;
 box-shadow: 0 4px 15px 0 rgba(26, 26, 26, 0.75);
 }
+
+footer{
+  background-color: #b8c0ff;
+}
