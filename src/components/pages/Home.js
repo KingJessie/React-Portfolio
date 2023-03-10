@@ -73,7 +73,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <footer className="py-4">
+      <footer className="py-8 bg-indigo-300">
   <div className="container mx-auto">
     <div className="flex items-center justify-center mb-4">
       <a href="mailto:kingjessiex@gmail.com" className="text-white mr-4">
@@ -87,7 +87,7 @@ const Home = () => {
       </a>
     </div>
     <div className="text-center">
-      <p className="text-black-400">Jessie | © {new Date().getFullYear()} All Rights Reserved</p>
+      <p className="text-slate-600">Jessie | © {new Date().getFullYear()} All Rights Reserved</p>
     </div>
   </div>
 </footer>

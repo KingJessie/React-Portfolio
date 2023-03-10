@@ -14,6 +14,16 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+.nav-link:hover:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #ec0868;
+  margin-top: 5px;
+}
+
+
 .home{
   background: linear-gradient(#cdb4db 40%, transparent 40%) no-repeat;
 }
@@ -388,4 +398,5 @@ box-shadow: 0 4px 15px 0 rgba(26, 26, 26, 0.75);
 
 footer{
   background-color: #b8c0ff;
+  font-family: "Philosopher", sans-serif;
 }
